@@ -21,7 +21,6 @@ const QuoteForm = (props) => {
     props.onAddQuote({
       author: enteredAuthor,
       text: enteredText,
-      id: `quote${Math.trunc(Math.random() * 1000000)}`,
     });
   }
 
